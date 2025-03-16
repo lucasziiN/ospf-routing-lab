@@ -1,0 +1,14 @@
+step-9:
+ LOND (1) < −> BOST (6) : 10.29s | 126MB | 103Mb
+ LOND (1) < −> NEWY (5) : 10.01s | 12.2MB | 10.3Mb
+ LOND (1) < −> PARI (3) : 10.26s | 126MB | 103Mb
+ LOND (1) < −> HAML (2) : 10.39s | 126MB | 103Mb
+ NEWY (5) <−> BOST (6) : 10.00s | 123MB | 103Mb
+ NEWY (5) <−> PARI (3) : 10.01s | 7.84GB | 103Gb
+ NEWY (5) <−> ZURI (8) : 10.31s | 126MB | 103Mb
+ NEWY (5) <−> ATLA (7) : 10.25s | 126MB | 103Mb
+ ZURI (8) < − > ATLA (7) : 10.34s | 126MB | 103Mb
+ ZURI (8) < − > TRGA (4) : 10.84s | 1.34MB | 1.04Mb
+ ZURI (8) < − > PARI (3) : 10.33s | 126MB | 103Mb
+ PARI (3) < − > TRGA (4) : 10.00s | 123MB | 103Mb
+ PARI (3) < − > HAML (2) : 10.30s | 126MB | 103Mb
