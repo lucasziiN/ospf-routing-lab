@@ -42,6 +42,39 @@
       ]
     }
   ],
+  "88.0.2.0/30":[
+    {
+      "prefix":"88.0.2.0/30",
+      "prefixLen":30,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":114,
+      "installedNexthopGroupId":114,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
   "88.0.3.0/30":[
     {
       "prefix":"88.0.3.0/30",
@@ -113,10 +146,10 @@
       "table":254,
       "internalStatus":16,
       "internalFlags":8,
-      "internalNextHopNum":2,
-      "internalNextHopActiveNum":2,
-      "nexthopGroupId":57,
-      "installedNexthopGroupId":57,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":115,
+      "installedNexthopGroupId":115,
       "nexthops":[
         {
           "flags":3,
@@ -125,6 +158,16 @@
           "afi":"ipv4",
           "interfaceIndex":30736,
           "interfaceName":"port_PARI",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
           "active":true,
           "weight":1
         },
@@ -156,10 +199,10 @@
       "table":254,
       "internalStatus":16,
       "internalFlags":8,
-      "internalNextHopNum":2,
-      "internalNextHopActiveNum":2,
-      "nexthopGroupId":57,
-      "installedNexthopGroupId":57,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":86,
+      "installedNexthopGroupId":86,
       "nexthops":[
         {
           "flags":3,
@@ -175,6 +218,16 @@
           "flags":3,
           "fib":true,
           "ip":"158.88.12.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.14.1",
           "afi":"ipv4",
           "interfaceIndex":26150,
           "interfaceName":"ssh",
@@ -228,6 +281,92 @@
           "flags":3,
           "fib":true,
           "ip":"158.88.12.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.0.7.0/30":[
+    {
+      "prefix":"88.0.7.0/30",
+      "prefixLen":30,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":116,
+      "installedNexthopGroupId":116,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.15.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.0.8.0/30":[
+    {
+      "prefix":"88.0.8.0/30",
+      "prefixLen":30,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":117,
+      "installedNexthopGroupId":117,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.14.1",
           "afi":"ipv4",
           "interfaceIndex":26150,
           "interfaceName":"ssh",
@@ -293,6 +432,92 @@
       ]
     }
   ],
+  "88.0.10.0/30":[
+    {
+      "prefix":"88.0.10.0/30",
+      "prefixLen":30,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":95,
+      "installedNexthopGroupId":95,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.14.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.15.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.0.11.0/30":[
+    {
+      "prefix":"88.0.11.0/30",
+      "prefixLen":30,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":88,
+      "installedNexthopGroupId":88,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.14.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.16.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
   "88.0.12.0/30":[
     {
       "prefix":"88.0.12.0/30",
@@ -308,10 +533,10 @@
       "table":254,
       "internalStatus":16,
       "internalFlags":8,
-      "internalNextHopNum":1,
-      "internalNextHopActiveNum":1,
-      "nexthopGroupId":40,
-      "installedNexthopGroupId":40,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":89,
+      "installedNexthopGroupId":89,
       "nexthops":[
         {
           "flags":3,
@@ -320,6 +545,16 @@
           "afi":"ipv4",
           "interfaceIndex":30749,
           "interfaceName":"port_ZURI",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.14.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
           "active":true,
           "weight":1
         }
@@ -341,10 +576,10 @@
       "table":254,
       "internalStatus":16,
       "internalFlags":8,
-      "internalNextHopNum":1,
-      "internalNextHopActiveNum":1,
-      "nexthopGroupId":40,
-      "installedNexthopGroupId":40,
+      "internalNextHopNum":2,
+      "internalNextHopActiveNum":2,
+      "nexthopGroupId":65,
+      "installedNexthopGroupId":65,
       "nexthops":[
         {
           "flags":3,
@@ -353,6 +588,16 @@
           "afi":"ipv4",
           "interfaceIndex":30749,
           "interfaceName":"port_ZURI",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.16.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
           "active":true,
           "weight":1
         }
@@ -386,6 +631,145 @@
           "afi":"ipv4",
           "interfaceIndex":30736,
           "interfaceName":"port_PARI",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.12.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.0.199.0/24":[
+    {
+      "prefix":"88.0.199.0/24",
+      "prefixLen":24,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":30,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":115,
+      "installedNexthopGroupId":115,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.3.1",
+          "afi":"ipv4",
+          "interfaceIndex":30736,
+          "interfaceName":"port_PARI",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.12.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.101.0.0/24":[
+    {
+      "prefix":"88.101.0.0/24",
+      "prefixLen":24,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":114,
+      "installedNexthopGroupId":114,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.102.0.0/24":[
+    {
+      "prefix":"88.102.0.0/24",
+      "prefixLen":24,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":30,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":115,
+      "installedNexthopGroupId":115,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.3.1",
+          "afi":"ipv4",
+          "interfaceIndex":30736,
+          "interfaceName":"port_PARI",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
           "active":true,
           "weight":1
         },
@@ -501,6 +885,105 @@
       ]
     }
   ],
+  "88.105.0.0/24":[
+    {
+      "prefix":"88.105.0.0/24",
+      "prefixLen":24,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":87,
+      "installedNexthopGroupId":87,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.14.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.106.0.0/24":[
+    {
+      "prefix":"88.106.0.0/24",
+      "prefixLen":24,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":94,
+      "installedNexthopGroupId":94,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.15.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.107.0.0/24":[
+    {
+      "prefix":"88.107.0.0/24",
+      "prefixLen":24,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":64,
+      "installedNexthopGroupId":64,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.16.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
   "88.108.0.0/24":[
     {
       "prefix":"88.108.0.0/24",
@@ -528,6 +1011,92 @@
           "afi":"ipv4",
           "interfaceIndex":30749,
           "interfaceName":"port_ZURI",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.151.0.1/32":[
+    {
+      "prefix":"88.151.0.1/32",
+      "prefixLen":32,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":10,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":114,
+      "installedNexthopGroupId":114,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.152.0.1/32":[
+    {
+      "prefix":"88.152.0.1/32",
+      "prefixLen":32,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":3,
+      "internalNextHopActiveNum":3,
+      "nexthopGroupId":115,
+      "installedNexthopGroupId":115,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"88.0.3.1",
+          "afi":"ipv4",
+          "interfaceIndex":30736,
+          "interfaceName":"port_PARI",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        },
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.12.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
           "active":true,
           "weight":1
         }
@@ -633,6 +1202,105 @@
       ]
     }
   ],
+  "88.155.0.1/32":[
+    {
+      "prefix":"88.155.0.1/32",
+      "prefixLen":32,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":10,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":87,
+      "installedNexthopGroupId":87,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.14.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.156.0.1/32":[
+    {
+      "prefix":"88.156.0.1/32",
+      "prefixLen":32,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":10,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":94,
+      "installedNexthopGroupId":94,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.15.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
+  "88.157.0.1/32":[
+    {
+      "prefix":"88.157.0.1/32",
+      "prefixLen":32,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":10,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":64,
+      "installedNexthopGroupId":64,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.16.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
+        }
+      ]
+    }
+  ],
   "88.158.0.1/32":[
     {
       "prefix":"88.158.0.1/32",
@@ -718,6 +1386,39 @@
           "interfaceIndex":26150,
           "interfaceName":"ssh",
           "active":true
+        }
+      ]
+    }
+  ],
+  "198.88.0.0/24":[
+    {
+      "prefix":"198.88.0.0/24",
+      "prefixLen":24,
+      "protocol":"ospf",
+      "vrfId":0,
+      "vrfName":"default",
+      "selected":true,
+      "destSelected":true,
+      "distance":110,
+      "metric":20,
+      "installed":true,
+      "table":254,
+      "internalStatus":16,
+      "internalFlags":8,
+      "internalNextHopNum":1,
+      "internalNextHopActiveNum":1,
+      "nexthopGroupId":114,
+      "installedNexthopGroupId":114,
+      "nexthops":[
+        {
+          "flags":3,
+          "fib":true,
+          "ip":"158.88.10.1",
+          "afi":"ipv4",
+          "interfaceIndex":26150,
+          "interfaceName":"ssh",
+          "active":true,
+          "weight":1
         }
       ]
     }
