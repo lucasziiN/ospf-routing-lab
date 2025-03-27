@@ -1,14 +1,14 @@
-step-9:
- LOND (1) < −> BOST (6) : 10.29s | 126MB | 103Mb
- LOND (1) < −> NEWY (5) : 10.01s | 12.2MB | 10.3Mb
- LOND (1) < −> PARI (3) : 10.26s | 126MB | 103Mb
- LOND (1) < −> HAML (2) : 10.39s | 126MB | 103Mb
- NEWY (5) <−> BOST (6) : 10.00s | 123MB | 103Mb
- NEWY (5) <−> PARI (3) : 10.01s | 7.84GB | 103Gb
- NEWY (5) <−> ZURI (8) : 10.31s | 126MB | 103Mb
- NEWY (5) <−> ATLA (7) : 10.25s | 126MB | 103Mb
- ZURI (8) < − > ATLA (7) : 10.34s | 126MB | 103Mb
- ZURI (8) < − > TRGA (4) : 10.84s | 1.34MB | 1.04Mb
- ZURI (8) < − > PARI (3) : 10.33s | 126MB | 103Mb
- PARI (3) < − > TRGA (4) : 10.00s | 123MB | 103Mb
- PARI (3) < − > HAML (2) : 10.30s | 126MB | 103Mb
+step-9:			   Latency |  Bandwidth   |  Cost
+ LOND (1) < − > BOST (6) : 20.10ms | 103 Mbits/s  | 10
+ LOND (1) < − > NEWY (5) : 0.280ms | 10.3 Mbits/s | 10
+ LOND (1) < − > PARI (3) : 0.120ms | 103 Mbits/s  | 10
+ LOND (1) < − > HAML (2) : 2.100ms | 103 Mbits/s  | 10
+ NEWY (5) < − > BOST (6) : 0.110ms | 103 Mbits/s  | 10
+ NEWY (5) < − > PARI (3) : 2.100ms | 10.3 Mbits/s | 10
+ NEWY (5) < − > ZURI (8) : 0.110ms | 103 Mbits/s  | 10
+ NEWY (5) < − > ATLA (7) : 0.055ms | 103 Mbits/s  | 10
+ ZURI (8) < − > ATLA (7) : 0.280ms | 103 Mbits/s  | 10
+ ZURI (8) < − > TRGA (4) : 0.290ms | 1.03 Mbits/s | 10
+ ZURI (8) < − > PARI (3) : 0.180ms | 103 Mbits/s  | 10
+ PARI (3) < − > TRGA (4) : 0.130ms | 103 Mbits/s  | 10
+ PARI (3) < − > HAML (2) : 0.280ms | 103 Mbits/s  | 10

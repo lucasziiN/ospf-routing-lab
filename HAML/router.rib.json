@@ -660,31 +660,6 @@
     {
       "prefix":"88.102.0.0/24",
       "prefixLen":24,
-      "protocol":"ospf",
-      "vrfId":0,
-      "vrfName":"default",
-      "distance":110,
-      "metric":10,
-      "table":254,
-      "internalStatus":0,
-      "internalFlags":0,
-      "internalNextHopNum":1,
-      "internalNextHopActiveNum":1,
-      "nexthopGroupId":29,
-      "nexthops":[
-        {
-          "flags":1,
-          "directlyConnected":true,
-          "interfaceIndex":27514,
-          "interfaceName":"host",
-          "active":true,
-          "weight":1
-        }
-      ]
-    },
-    {
-      "prefix":"88.102.0.0/24",
-      "prefixLen":24,
       "protocol":"connected",
       "vrfId":0,
       "vrfName":"default",
@@ -755,7 +730,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":30,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -798,7 +773,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":30,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -841,7 +816,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":30,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -884,7 +859,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":30,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -927,7 +902,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":30,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -960,7 +935,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":10,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -984,31 +959,6 @@
     }
   ],
   "88.152.0.1/32":[
-    {
-      "prefix":"88.152.0.1/32",
-      "prefixLen":32,
-      "protocol":"ospf",
-      "vrfId":0,
-      "vrfName":"default",
-      "distance":110,
-      "metric":0,
-      "table":254,
-      "internalStatus":0,
-      "internalFlags":0,
-      "internalNextHopNum":1,
-      "internalNextHopActiveNum":1,
-      "nexthopGroupId":31,
-      "nexthops":[
-        {
-          "flags":1,
-          "directlyConnected":true,
-          "interfaceIndex":1,
-          "interfaceName":"lo",
-          "active":true,
-          "weight":1
-        }
-      ]
-    },
     {
       "prefix":"88.152.0.1/32",
       "prefixLen":32,
@@ -1049,7 +999,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":10,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,

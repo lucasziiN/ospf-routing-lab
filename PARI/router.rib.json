@@ -72,8 +72,8 @@
       "internalFlags":8,
       "internalNextHopNum":3,
       "internalNextHopActiveNum":3,
-      "nexthopGroupId":149,
-      "installedNexthopGroupId":149,
+      "nexthopGroupId":180,
+      "installedNexthopGroupId":180,
       "nexthops":[
         {
           "flags":3,
@@ -349,8 +349,8 @@
       "internalFlags":8,
       "internalNextHopNum":3,
       "internalNextHopActiveNum":3,
-      "nexthopGroupId":143,
-      "installedNexthopGroupId":143,
+      "nexthopGroupId":182,
+      "installedNexthopGroupId":182,
       "nexthops":[
         {
           "flags":3,
@@ -402,8 +402,8 @@
       "internalFlags":8,
       "internalNextHopNum":4,
       "internalNextHopActiveNum":4,
-      "nexthopGroupId":144,
-      "installedNexthopGroupId":144,
+      "nexthopGroupId":183,
+      "installedNexthopGroupId":183,
       "nexthops":[
         {
           "flags":3,
@@ -571,8 +571,8 @@
       "internalFlags":8,
       "internalNextHopNum":3,
       "internalNextHopActiveNum":3,
-      "nexthopGroupId":108,
-      "installedNexthopGroupId":108,
+      "nexthopGroupId":234,
+      "installedNexthopGroupId":234,
       "nexthops":[
         {
           "flags":3,
@@ -677,8 +677,8 @@
       "internalFlags":8,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":83,
-      "installedNexthopGroupId":83,
+      "nexthopGroupId":236,
+      "installedNexthopGroupId":236,
       "nexthops":[
         {
           "flags":3,
@@ -809,8 +809,8 @@
       "internalFlags":8,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":141,
-      "installedNexthopGroupId":141,
+      "nexthopGroupId":184,
+      "installedNexthopGroupId":184,
       "nexthops":[
         {
           "flags":3,
@@ -869,31 +869,6 @@
     }
   ],
   "88.103.0.0/24":[
-    {
-      "prefix":"88.103.0.0/24",
-      "prefixLen":24,
-      "protocol":"ospf",
-      "vrfId":0,
-      "vrfName":"default",
-      "distance":110,
-      "metric":10,
-      "table":254,
-      "internalStatus":0,
-      "internalFlags":0,
-      "internalNextHopNum":1,
-      "internalNextHopActiveNum":1,
-      "nexthopGroupId":44,
-      "nexthops":[
-        {
-          "flags":1,
-          "directlyConnected":true,
-          "interfaceIndex":27432,
-          "interfaceName":"host",
-          "active":true,
-          "weight":1
-        }
-      ]
-    },
     {
       "prefix":"88.103.0.0/24",
       "prefixLen":24,
@@ -1060,8 +1035,8 @@
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":82,
-      "installedNexthopGroupId":82,
+      "nexthopGroupId":235,
+      "installedNexthopGroupId":235,
       "nexthops":[
         {
           "flags":3,
@@ -1119,15 +1094,15 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":10,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
       "internalFlags":8,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":141,
-      "installedNexthopGroupId":141,
+      "nexthopGroupId":184,
+      "installedNexthopGroupId":184,
       "nexthops":[
         {
           "flags":3,
@@ -1162,7 +1137,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":10,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -1186,31 +1161,6 @@
     }
   ],
   "88.153.0.1/32":[
-    {
-      "prefix":"88.153.0.1/32",
-      "prefixLen":32,
-      "protocol":"ospf",
-      "vrfId":0,
-      "vrfName":"default",
-      "distance":110,
-      "metric":0,
-      "table":254,
-      "internalStatus":0,
-      "internalFlags":0,
-      "internalNextHopNum":1,
-      "internalNextHopActiveNum":1,
-      "nexthopGroupId":46,
-      "nexthops":[
-        {
-          "flags":1,
-          "directlyConnected":true,
-          "interfaceIndex":1,
-          "interfaceName":"lo",
-          "active":true,
-          "weight":1
-        }
-      ]
-    },
     {
       "prefix":"88.153.0.1/32",
       "prefixLen":32,
@@ -1251,7 +1201,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":10,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -1294,7 +1244,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":10,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -1337,7 +1287,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":10,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -1370,15 +1320,15 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":10,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
       "internalFlags":8,
       "internalNextHopNum":1,
       "internalNextHopActiveNum":1,
-      "nexthopGroupId":82,
-      "installedNexthopGroupId":82,
+      "nexthopGroupId":235,
+      "installedNexthopGroupId":235,
       "nexthops":[
         {
           "flags":3,
@@ -1403,7 +1353,7 @@
       "selected":true,
       "destSelected":true,
       "distance":110,
-      "metric":10,
+      "metric":20,
       "installed":true,
       "table":254,
       "internalStatus":16,
@@ -1499,8 +1449,8 @@
       "internalFlags":8,
       "internalNextHopNum":2,
       "internalNextHopActiveNum":2,
-      "nexthopGroupId":141,
-      "installedNexthopGroupId":141,
+      "nexthopGroupId":184,
+      "installedNexthopGroupId":184,
       "nexthops":[
         {
           "flags":3,
