@@ -1,0 +1,92 @@
+From BOST host to LOND host
+
+ping 88.101.0.1:
+0.110ms
+
+traceroute 88.101.0.1:  
+1  bost.group88 (88.106.0.2)  0.006 ms  0.006 ms  0.005 ms
+2  lond.group88 (88.0.7.1)  22.257 ms  21.648 ms  20.675 ms
+3  host.lond.group88 (88.101.0.1)  10.143 ms  10.164 ms  10.136 ms
+
+iperf3 -c 88.101.0.1:
+Connecting to host 88.101.0.1, port 5201
+[  5] local 88.106.0.1 port 51678 connected to 88.101.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  24.1 MBytes   202 Mbits/sec    0   9.38 MBytes
+[  5]   1.00-2.00   sec  10.2 MBytes  85.9 Mbits/sec    0   9.38 MBytes
+[  5]   2.00-3.00   sec  12.1 MBytes   102 Mbits/sec    0   9.38 MBytes
+[  5]   3.00-4.00   sec  10.1 MBytes  85.0 Mbits/sec    0   9.38 MBytes
+[  5]   4.00-5.00   sec  12.2 MBytes   103 Mbits/sec    0   9.38 MBytes
+[  5]   5.00-6.00   sec  12.2 MBytes   103 Mbits/sec    0   9.38 MBytes
+[  5]   6.00-7.00   sec  10.1 MBytes  84.9 Mbits/sec    0   9.38 MBytes
+[  5]   7.00-8.00   sec  12.2 MBytes   103 Mbits/sec    0   9.38 MBytes
+[  5]   8.00-9.00   sec  10.1 MBytes  84.9 Mbits/sec    0   9.38 MBytes
+[  5]   9.00-10.00  sec  12.2 MBytes   103 Mbits/sec    0   9.38 MBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec   126 MBytes   106 Mbits/sec    0             sender
+[  5]   0.00-10.00  sec   122 MBytes   103 Mbits/sec                  receiver
+
+
+From BOST host to LOND router:
+ping 88.101.0.2:
+20.2ms
+
+traceroute 88.101.0.2:
+1  bost.group88 (88.106.0.2)  0.008 ms  0.004 ms  0.003 ms
+2  lond.group88 (88.101.0.2)  20.203 ms  21.715 ms  20.215 ms
+
+
+From BOST router to LOND router:
+ping 88.101.0.2:
+20.2ms
+
+traceroute 88.101.0.2:
+1  lond.group88 (88.101.0.2)  10.090 ms  20.542 ms  20.166 ms
+
+
+From LOND host to BOST host:
+ping 88.106.0.1:
+0.110ms
+
+traceroute 88.106.0.1:
+1  lond.group88 (88.101.0.2)  0.006 ms  0.004 ms  0.003 ms
+2  bost.group88 (88.0.7.2)  20.209 ms  20.248 ms  20.309 ms
+3  host.bost.group88 (88.106.0.1)  10.210 ms  11.383 ms  10.130 ms
+
+iperf3 -s 88.106.0.1:
+Connecting to host 88.106.0.1, port 5201
+[  5] local 88.101.0.1 port 35282 connected to 88.106.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  23.6 MBytes   198 Mbits/sec    0   2.07 MBytes
+[  5]   1.00-2.00   sec  10.5 MBytes  88.0 Mbits/sec    0   2.64 MBytes
+[  5]   2.00-3.00   sec  12.2 MBytes   103 Mbits/sec    0   3.21 MBytes
+[  5]   3.00-4.02   sec  11.1 MBytes  91.3 Mbits/sec    0   3.79 MBytes
+[  5]   4.02-5.00   sec  11.2 MBytes  96.5 Mbits/sec    0   4.35 MBytes
+[  5]   5.00-6.00   sec  10.9 MBytes  91.1 Mbits/sec    0   4.71 MBytes
+[  5]   6.00-7.00   sec  13.1 MBytes   110 Mbits/sec    0   4.71 MBytes
+[  5]   7.00-8.00   sec  10.9 MBytes  91.2 Mbits/sec    0   4.71 MBytes
+[  5]   8.00-9.00   sec  10.8 MBytes  90.2 Mbits/sec    0   4.71 MBytes
+[  5]   9.00-10.01  sec  11.0 MBytes  91.5 Mbits/sec    0   4.71 MBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.01  sec   125 MBytes   105 Mbits/sec    0             sender
+[  5]   0.00-10.01  sec   122 MBytes   103 Mbits/sec                  receiver
+
+
+From LOND host to BOST router:
+ping 88.106.0.2:
+0.090ms
+
+traceroute 88.106.0.2:
+1  lond.group88 (88.101.0.2)  0.009 ms  0.004 ms  0.004 ms
+2  bost.group88 (88.106.0.2)  20.154 ms  21.126 ms  20.635 ms
+
+
+From LOND router to BOST router:
+ping 88.106.0.2:
+0.070ms
+
+traceroute 88.106.0.2:
+1  bost.group88 (88.106.0.2)  20.156 ms  10.077 ms  10.084 ms
+
