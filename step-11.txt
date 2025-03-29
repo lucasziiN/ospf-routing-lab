@@ -1,0 +1,5 @@
+cost for port_BOST in LOND router: 30
+cost for port_LOND in BOST router: 30
+
+latency from BOST router to LOND router: 0.350ms
+latency from LOND router to BOST router: 0.360ms
