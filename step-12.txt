@@ -1,0 +1,66 @@
+From BOST host to LOND host
+
+ping 88.101.0.1:
+0.430ms
+
+traceroute 88.101.0.1:  
+1  bost.group88 (88.106.0.2)  0.005 ms  0.005 ms  0.006 ms
+2  newy.group88 (88.0.10.1)  0.327 ms  0.128 ms  0.062 ms
+3  lond.group88 (88.0.8.1)  0.361 ms  0.339 ms  0.296 ms
+4  host.lond.group88 (88.101.0.1)  0.350 ms  0.390 ms  0.306 ms
+
+
+
+iperf3 -c 88.101.0.1:
+Connecting to host 88.101.0.1, port 5201
+[  5] local 88.106.0.1 port 54148 connected to 88.101.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  2.88 MBytes  24.1 Mbits/sec    0    230 KBytes
+[  5]   1.00-2.00   sec  1.75 MBytes  14.7 Mbits/sec    0    291 KBytes
+[  5]   2.00-3.00   sec  1.38 MBytes  11.5 Mbits/sec    0    349 KBytes
+[  5]   3.00-4.00   sec  1.62 MBytes  13.6 Mbits/sec    0    409 KBytes
+[  5]   4.00-5.00   sec   896 KBytes  7.34 Mbits/sec    0    467 KBytes
+[  5]   5.00-6.00   sec  2.12 MBytes  17.8 Mbits/sec    0    523 KBytes
+[  5]   6.00-7.00   sec  1.12 MBytes  9.44 Mbits/sec    0    584 KBytes
+[  5]   7.00-8.00   sec  1.25 MBytes  10.5 Mbits/sec    0    642 KBytes
+[  5]   8.00-9.00   sec  1.38 MBytes  11.6 Mbits/sec    0    699 KBytes
+[  5]   9.00-10.00  sec  1.38 MBytes  11.5 Mbits/sec    0    759 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  15.8 MBytes  13.2 Mbits/sec    0             sender
+[  5]   0.00-10.65  sec  13.0 MBytes  10.2 Mbits/sec                  receiver
+
+
+
+
+From LOND host to BOST host:
+ping 88.106.0.1:
+0.420ms
+
+traceroute 88.106.0.1:
+1  lond.group88 (88.101.0.2)  0.005 ms  0.004 ms  0.003 ms
+2  newy.group88 (88.0.8.2)  0.276 ms  0.459 ms  0.461 ms
+3  bost.group88 (88.0.10.2)  0.335 ms  0.325 ms  0.297 ms
+4  host.bost.group88 (88.106.0.1)  0.317 ms  0.375 ms  0.320 ms
+
+
+iperf3 -c 88.106.0.1:
+Connecting to host 88.106.0.1, port 5201
+[  5] local 88.101.0.1 port 49942 connected to 88.106.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  4.88 MBytes  40.8 Mbits/sec    0    542 KBytes
+[  5]   1.00-2.00   sec  1.25 MBytes  10.5 Mbits/sec    0    600 KBytes
+[  5]   2.00-3.00   sec  1.25 MBytes  10.5 Mbits/sec    0    660 KBytes
+[  5]   3.00-4.02   sec  1.38 MBytes  11.3 Mbits/sec    0    717 KBytes
+[  5]   4.02-5.00   sec  1.38 MBytes  11.7 Mbits/sec    0    775 KBytes
+[  5]   5.00-6.00   sec  1.38 MBytes  11.5 Mbits/sec    0    834 KBytes
+[  5]   6.00-7.00   sec  0.00 Bytes  0.00 bits/sec    0    892 KBytes
+[  5]   7.00-8.00   sec  1.38 MBytes  11.5 Mbits/sec    0    949 KBytes
+[  5]   8.00-9.00   sec  1.38 MBytes  11.5 Mbits/sec   45    834 KBytes
+[  5]   9.00-10.00  sec  1.62 MBytes  13.6 Mbits/sec    0    710 KBytes
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  15.9 MBytes  13.3 Mbits/sec   45             sender
+[  5]   0.00-10.59  sec  12.9 MBytes  10.2 Mbits/sec                  receiver
+
+
