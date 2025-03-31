@@ -1,0 +1,49 @@
+saving network:
+./save_configs.sh
+
+pushing to git:
+git add .
+git commit -m "Your commit message"
+git push origin main
+
+Step 1: 
+configuring router:
+configure terminal
+interface <interface_name>
+ip address <ip-address>
+
+connecting host to router:
+ip addr flush dev <routerName>router
+ip addr add 88.10Y.0.1/24 dev <routerName>router
+ip route add default via 88.10Y.0.2 dev <routerName>router
+
+see all of the router's interfaces:
+show interface brief
+
+
+Step 2: 
+Issue with setting host interface of the router to 0.1 rather than 0.2. Found out that host interface of the router is different to the host being talked about in the assignment
+
+Step 4: 
+configure terminal
+router ospf
+ospf router-id <loopbackAddress>
+network <networkAddress>/24 area 0.0.0.0
+redistribute connected
+
+
+check router:
+show ip ospf interface
+
+check host:
+tcpdump -i <router_name>router proto ospf
+
+step 9: 
+iperf3 -s
+iperf3 -c <serverAddress>
+
+
+step 11:
+configure terminal
+interface <interfaceName>
+ip ospf cost 30
